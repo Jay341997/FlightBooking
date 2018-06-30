@@ -1,0 +1,182 @@
+.wholePage{
+  background:url('http://oi64.tinypic.com/2lie892.jpg') no-repeat;
+ 	background-size:cover;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.search{
+  font-size: 15px;
+}
+
+.dropdown{
+  border: 0px;
+  outline-style: none;
+  background: transparent;
+}
+
+.Airline_logo{
+  width: 50px;
+  align: left;
+
+}
+
+.fa-plane{
+  padding-left: 5px;
+  font-size: 40px;
+  position: initial;
+  color: #585759;
+}
+.fa-flip-vertical{
+  font-size: 40px;
+  position: relative;
+  color: #585759;
+}
+
+.leftside{
+  bottom: 20px;
+}
+
+.booking-item-container{
+  padding-top: 10px;
+}
+
+
+.booking-item{
+  width: 100%;
+  border-width: 1px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: orange;
+  display: inline-block;
+  padding: 10px;
+}
+
+.booking-item:hover{
+  box-shadow: 0px 2px 0px orange;
+  border-color: green;
+}
+
+.booking-item-details{
+  border-width: 1px;
+  border-radius: 1px;
+  border-style: solid;
+  border-color: orange;
+}
+
+.booking-item-price{
+  font-size: 30px;
+  color: #585759;
+}
+
+.or{
+  border-color: 	#D3D3D3;
+}
+
+.booking-list{
+  display: inline-grid;
+  width: 100%;
+}
+
+#Fligh_Details{
+  padding-left: 12px;
+  padding-top: 8px;
+}
+
+#Filters{
+  padding: 20px;
+  border-width: 3px;
+  border-radius: 2px;
+  border-style: double;
+  border-color: orange;
+  height: 900px;
+  background-color: grey;
+}
+
+#Filters ul{
+  color: #f0f0f0;
+}
+
+.shrinkFilter{
+  display: none;
+}
+.sidebar{
+  display: none;
+}
+
+
+
+@media only screen and (max-width: 993px) {
+  .fa-flip-vertical{
+    bottom: 5px;
+  }
+  #Filters{
+    height: 850px;
+  }
+}
+@media only screen and (max-width: 786px) {
+    .shrinkFilter {
+        border-radius: 3px;
+        display: block;
+    }
+    #Filters{
+      display: none;
+    }
+    .booking-list{
+      padding-left: 35px;
+    }
+    .sidebar li{
+      padding-left: 20px;
+    }
+    .sidebar{
+        background-color: grey;
+        padding: 5px;
+        display: block;
+    }
+}
+
+
+p{
+  font-size: 12px;
+  line-height: 15px;
+}
+
+ul{
+  list-style-type: none;
+  padding-left: 0px;
+}
+li{
+  font-size: 13px;
+}
+
+h4{
+  line-height: 2px;
+  font-size: 13px;
+}
+
+.booking-item-airline-logo{
+  width: 100%;
+}
+
+.booking-item-departure{
+  width: 100%;
+}
+
+.booking-item-arrival{
+  width: 100%;
+}
+
+.showTotalTime{
+  width: 100%;
+
+}
+
+.showFareAndBook{
+  width: 100%;
+}
+
+.booking-item-destination{
+  bottom: 10px;
+  padding-left: 15px;
+  position : relative;
+}

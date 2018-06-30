@@ -1,0 +1,95 @@
+.main-form{
+ margin:10px auto;
+ width:20%;
+}
+.myform {
+    background:rgba(3, 3, 3, 0.47);
+    padding: 25px;
+}
+@media (max-width:1366px){
+.main-form {
+   margin:10px auto;
+  width: 23%;
+  }
+}
+@media (max-width:1280px){
+.main-form {
+   margin:10px auto;
+  width: 27%;
+}
+}
+@media (max-width:1080px){
+
+.main-form {
+   margin:10px auto;
+  width: 38%;
+}
+}
+@media (max-width:1024px){
+.main-form {
+   margin:10px auto;
+  width: 41%;
+}
+}
+@media (max-width:966px){
+.main-form {
+   margin:10px auto;
+  width: 43%;
+}
+
+}
+@media (max-width:800px){
+.main-form {
+  width: 51%;
+}
+}
+@media (max-width:768px){
+.main-form {
+   margin:10px auto;
+  width: 55%;
+}
+}
+@media (max-width:736px){
+.main-form {
+  width: 58%;
+   margin:10px auto;
+}
+}
+.submit-btn {
+    font-size: 14px;
+    color: #fff;
+    background:#fc4a1a;
+    margin:  auto;
+}
+@media (max-width:500px){
+.main-form {
+  width: 75%;
+   margin:10px auto;
+}
+}
+.submit-btn {
+    font-size: 14px;
+    color: #fff;
+    background:#fc4a1a;
+    margin:  auto;
+}
+@media (max-width:400px){
+.main-form {
+  width: 88%;
+   margin:10px auto;
+}
+}
+.submit-btn {
+    font-size: 14px;
+    color: #fff;
+    background:#fc4a1a;
+    margin:  auto;
+}
+
+body{
+   	background:url('http://oi64.tinypic.com/2lie892.jpg') no-repeat 0px 0px;
+    background-size: cover;
+   	font-family: 'Open Sans', sans-serif;
+   	background-attachment: fixed;
+    background-position: center;
+}
